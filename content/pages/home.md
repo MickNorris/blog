@@ -6,4 +6,4 @@ meta:
   noindex: false
   title: ''
 ---
-I build a lot of useless novelties, but occasionally I make something cool and I like creating memorable experiences using web technologies!
+I build a lot of useless novelties and create memorable experiences using web technologies!
