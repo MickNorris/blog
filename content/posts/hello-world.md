@@ -2,12 +2,19 @@
 title: Hello World!
 status: Featured / Published
 date: '2018-03-27'
-postFeaturedImage: /images/uploads/tim-marshall-155597.jpg
+postFeaturedImage: /images/uploads/mark-chang-74-3.jpg
 excerpt: >-
-  Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
-  interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
-  est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
-  pellentesque, lacinia risus ut, imperdiet eros.
+  Mauris et libero nec elit dictum consectetur eu non odio. Sed ac turpis
+  interdum, suscipit neque eu, pellentesque sem. Donec non ex augue. Nullam
+  viverra ante a ipsum sagittis dictum. Orci varius natoque penatibus et magnis
+  dis parturient montes, nascetur ridiculus mus. Duis ornare nulla non turpis
+  mollis vestibulum. Nullam egestas a neque non venenatis. Maecenas faucibus
+  orci risus. Sed eros turpis, laoreet nec cursus nec, auctor id nisl. Quisque
+  at neque ut augue cursus congue. Etiam egestas magna nec felis iaculis, sit
+  amet auctor mauris convallis. Vivamus condimentum nibh eget nunc tincidunt
+  posuere. Curabitur laoreet erat sed nunc condimentum mollis. Nam vitae est non
+  lectus gravida varius vitae in odio. Sed mattis velit et mauris efficitur
+  tempus
 categories:
   - category: News
 meta:
