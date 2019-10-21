@@ -3,7 +3,14 @@ title: Post Two
 status: Published
 date: '2018-03-28'
 postFeaturedImage: /images/uploads/vyouw5byhlc.jpeg
-excerpt: This is an excerpt of Post Two
+excerpt: >-
+  Integer commodo felis vel libero commodo, non gravida nunc hendrerit. Duis
+  fringilla rutrum mi, id volutpat odio laoreet sed. Etiam lacinia quam in
+  volutpat ultrices. Nunc neque dui, ultrices quis pretium gravida, interdum ac
+  ex. Nam venenatis, massa eu mattis cursus, felis odio porttitor felis, ac
+  pharetra erat tellus eu neque. Cras dignissim at nisi at convallis. Praesent
+  justo mi, molestie vitae varius eu, iaculis et eros. Duis risus ante,
+  tincidunt eget erat nec, pharetra commodo erat. 
 categories:
   - category: Updates
 ---
