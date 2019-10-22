@@ -1,0 +1,62 @@
+.PostSection .PostCard {
+  width: 100%;
+  height: 200px;
+}
+
+.PostSection--Grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.PostSection--Title {
+  width: 100%;
+  line-height: 1.2;
+}
+
+.PostCard {
+  display: flex;
+  text-decoration: none;
+  background: white;
+  margin-bottom: 2em;
+  color: inherit;
+  border: 1px solid var(--lightGrey);
+  border-radius: var(--borderRadius);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.PostCard:hover,
+.PostCard:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+}
+
+.PostCard--Image {
+  // margin: 0 0 2rem 0;
+  flex: 1;
+  height: 100%;
+}
+
+.PostCard--Title {
+  margin: 0;
+}
+
+.PostCard--Date { 
+  color: var(--midGrey);
+  margin-bottom: 5px;
+}
+
+.PostCard--Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2.5rem;
+  flex:2;
+}
+
+.PostCard--Category {
+  font-size: 1rem;
+  text-align: right;
+}

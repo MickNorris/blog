@@ -24,8 +24,12 @@ class PostSection extends React.Component {
     }))
   }
 
+  componentDidMount = () => {
+    console.log(this.props.posts);
+  }
+
   render () {
-    const { posts, title, showLoadMore, loadMoreTitle } = this.props
+    const { posts, title, showLoadMore, loadMoreTitle} = this.props
     const { limit } = this.state
 
     const visiblePosts = _sortBy(posts, ['date'])

@@ -64,7 +64,7 @@ class App extends Component {
         <div className='React-Wrap'>
           <ScrollToTop />
           <ServiceWorkerNotifications reloadOnUpdate />
-          <GithubCorner url='https://github.com/Jinksi/netlify-cms-react-starter' />
+          {/*<GithubCorner url='https://github.com/Jinksi/netlify-cms-react-starter' />*/}
           <Helmet
             defaultTitle={siteTitle}
             titleTemplate={`${siteTitle} | %s`}
@@ -84,7 +84,7 @@ class App extends Component {
             }
           />
 
-          <Nav />
+          {/*<Nav />*/}
 
           <Switch>
             <RouteWithMeta
@@ -92,6 +92,8 @@ class App extends Component {
               exact
               component={Home}
               description={siteDescription}
+              posts={posts}
+              postCategories={postCategories}
               fields={this.getDocument('pages', 'home')}
             />
             <RouteWithMeta
@@ -154,7 +156,7 @@ class App extends Component {
 
             <Route render={() => <NoMatch siteUrl={siteUrl} />} />
           </Switch>
-          <Footer />
+          {/*<Footer />*/}
         </div>
       </Router>
     )

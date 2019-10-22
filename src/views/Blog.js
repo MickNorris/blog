@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import PostCategoriesNav from '../components/PostCategoriesNav'
 import PostSection from '../components/PostSection'
 
-import './Blog.css'
+import './css/Blog.css'
 
 export default ({
   fields,
