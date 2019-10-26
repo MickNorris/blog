@@ -11,6 +11,7 @@
     align-items: center;
     padding: 0px 20px;
     text-align: center;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
 
     .name{
         font-size: 30pt;
@@ -58,5 +59,33 @@
         width: 40px;
         height : 40px;
 
+    }
+}
+
+@media screen and (min-width : 500px) and  (max-width : 1200px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .about {
+        padding: 25px 100px;
+    }
+}
+
+
+
+@media screen and (min-width : 0px) and  (max-width : 500px) {
+    .home {
+        flex-direction: column;
+    }
+    .about {
+        padding: 30px 50px;
+    }
+}
+
+
+@media screen and (min-width : 0px) and  (max-width : 400px) {
+    .about{
+        padding: 30px 15px;
     }
 }

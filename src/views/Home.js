@@ -15,7 +15,7 @@ export default ({ fields, posts = [], postCategories = []}) => {
     <main className='home wrapper'>
       <div className='section about'>
         <span className="name">Nick Morris</span>
-        <span className="tagline">developer·designer</span>
+        <span className="tagline">developer / designer</span>
         <div className="seperator"></div>
         <span className="description">{body}</span>
         <div className="contact-section">

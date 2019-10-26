@@ -41,7 +41,7 @@ const PostCard = ({ postItem, className = '', ...props }) => (
       {postItem.excerpt && (
         <div className='PostCard--Excerpt'>
           {postItem.excerpt.length > 160
-            ? postItem.excerpt.slice(0, 157) + '...'
+            ? postItem.excerpt.slice(0, 120) + '...'
             : postItem.excerpt}
         </div>
       )}
