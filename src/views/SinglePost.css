@@ -61,6 +61,14 @@
   .SinglePost--InnerContent {
     padding: 0;
   }
+
+  .container.skinny {
+    width: 100%;
+  }
+
+  .Content {
+    padding: 0px 5px;
+  }
 }
 
 .SinglePost--Pagination {
